@@ -1,0 +1,1 @@
+{"version":3,"sources":["spinner.scss"],"names":[],"mappings":"AAAA,uCACE,wBAA0B","file":"main.b317b17d.chunk.css","sourcesContent":[".ant-spin-nested-loading > div > .ant-spin {\n  position: fixed !important;\n}"]}
