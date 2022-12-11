@@ -1,0 +1,17 @@
+curl --location --request POST 'http://localhost:8080/v1/users' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "username": "aaassdfasdssxasddsdsdszf",
+    "password": "1235",
+    "email": "12@163.com",
+    "role": "ADMIN"
+}'
+
+
+curl --location --request PATCH 'http://localhost:8080/v1/users/7b8a9827-75ef-4d26-ad42-22020d428ee0' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id": "7b8a9827-75ef-4d26-ad42-22020d428ee0",
+    "password": "1235",
+    "email": "newEmail@163.com",
+}'
